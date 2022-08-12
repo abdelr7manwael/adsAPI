@@ -18,7 +18,7 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')->hourly();
 
         //Scedule Sending Email daily at 8:00 To Advertiser that has ad begins tomorrow
-        $schedule->command('send:email')->dailyAt('20:48')->timezone('GMT+2');
+        $schedule->command('send:email')->dailyAt('20:00')->timezone('GMT+2');
     }
 
     /**
